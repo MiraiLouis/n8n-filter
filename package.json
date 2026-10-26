@@ -1,0 +1,8 @@
+{
+  "name": "filtre-offres-n8n",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/assembler-n8n.js && node --test test/filtre.test.js",
+    "build:n8n": "node scripts/assembler-n8n.js"
+  }
+}
